@@ -70,7 +70,7 @@ public class Enemy : MonoBehaviour
 
     private void OnTriggerEnter2D(Collider2D other)
     {
-        if (!other.CompareTag("Bullet"))
+        if (!other.CompareTag("Bullet") || !isLive)
         {
             return;
         }
@@ -91,6 +91,8 @@ public class Enemy : MonoBehaviour
             rigid.simulated = false;
             spriter.sortingOrder = 1;
             anim.SetBool("Dead", true);
+            GameManager.instance.kill += 1;
+            GameManager.instance.GetExp();
             // Dead();
         }
     }
@@ -100,7 +102,7 @@ public class Enemy : MonoBehaviour
         yield return wait;
         Vector3 playerPos = GameManager.instance.player.transform.position;
         Vector3 dirVec = transform.position - playerPos;
-        rigid.AddForce(dirVec.normalized * 10f, ForceMode2D.Impulse);
+        rigid.AddForce(dirVec.normalized * 3f, ForceMode2D.Impulse);
         print(dirVec);
     }
     

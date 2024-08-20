@@ -5,9 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="0d3ad439-f0db-455a-a22c-a81ea44ae1d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UndeadSurvivor/.idea/.gitignore" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Prefabs/Bullet 0.prefab" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Prefabs/Bullet 0.prefab" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.UndeadSurvivor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UndeadSurvivor/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Enemy.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/GameManager.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Weapon.cs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Packages/packages-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/Packages/packages-lock.json" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -16,6 +20,19 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/228a75ed9d5b4a658c89f48527e7e2e0175400/fa/897fe539/WaitForFixedUpdate.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Undead Survivor/Codes/Bullet.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Undead Survivor/Codes/HUD.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Assets/Undead Survivor/Codes/ItemData.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.psdimporter@8.0.4/Editor/PSDImporterEditor.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.2d.psdimporter@8.0.4/Editor/TextureSettingsGUI.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Samples~/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.cinemachine@2.9.7/Samples~/Cinemachine Example Scenes/Shared/Models/UnityCharacter/Scripts/CharacterMovement2D.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ide.rider@3.0.31/Rider/Editor/RiderStyles.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.render-pipelines.core@14.0.10/Editor/AdditionalPropertiesState.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Library/PackageCache/com.unity.ugui@1.0.0/Runtime/UI/Core/CanvasUpdateRegistry.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;customColor&quot;: &quot;&quot;,
@@ -94,6 +111,8 @@
       <option name="presentableId" value="Default" />
       <updated>1724110158459</updated>
       <workItem from="1724110161590" duration="675000" />
+      <workItem from="1724110858869" duration="706000" />
+      <workItem from="1724134588993" duration="13263000" />
     </task>
     <servers />
   </component>
