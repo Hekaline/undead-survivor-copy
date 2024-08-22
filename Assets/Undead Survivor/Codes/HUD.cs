@@ -19,7 +19,6 @@ public class HUD : MonoBehaviour
     public InfoType type;
     private Text myText;
     private Slider mySlider;
-    private GameManager gm;
 
     private void Awake()
     {
@@ -27,18 +26,14 @@ public class HUD : MonoBehaviour
         mySlider = GetComponent<Slider>();
     }
 
-    private void Start()
-    {
-        gm = GameManager.instance;
-    }
-
     private void LateUpdate()
     {
+        GameManager gm = GameManager.instance;
         switch (type)
         {
             case InfoType.Exp:
                 float currExp = gm.exp;
-                float maxExp = gm.nextExp[gm.level];
+                float maxExp = gm.nextExp[Mathf.Min(gm.level, gm.nextExp.Length - 1)];
                 mySlider.value = currExp / maxExp;
                 break;
             case InfoType.Health:

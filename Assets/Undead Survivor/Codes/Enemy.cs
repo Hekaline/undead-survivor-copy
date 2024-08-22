@@ -32,6 +32,11 @@ public class Enemy : MonoBehaviour
 
     private void FixedUpdate()
     {
+        if (GameManager.instance.isLive == false)
+        {
+            return;
+        }
+        
         if (!isLive || anim.GetCurrentAnimatorStateInfo(0).IsName("Hit"))
         {
             return;
@@ -46,6 +51,11 @@ public class Enemy : MonoBehaviour
 
     private void LateUpdate()
     {
+        if (GameManager.instance.isLive == false)
+        {
+            return;
+        }
+        
         spriter.flipX = target.position.x < transform.position.x;
     }
     
@@ -82,6 +92,7 @@ public class Enemy : MonoBehaviour
         {
             // still alive, hit action
             anim.SetTrigger("Hit");
+            AudioManager.instance.PlaySfx(AudioManager.Sfx.Hit);
         }
         else
         {
@@ -93,6 +104,11 @@ public class Enemy : MonoBehaviour
             anim.SetBool("Dead", true);
             GameManager.instance.kill += 1;
             GameManager.instance.GetExp();
+
+            if (GameManager.instance.isLive)
+            {
+                AudioManager.instance.PlaySfx(AudioManager.Sfx.Dead);
+            }
             // Dead();
         }
     }

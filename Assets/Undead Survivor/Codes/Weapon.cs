@@ -21,6 +21,11 @@ public class Weapon : MonoBehaviour
 
     private void Update()
     {
+        if (GameManager.instance.isLive == false)
+        {
+            return;
+        }
+        
         switch (id)
         {
             case 0:
@@ -46,13 +51,15 @@ public class Weapon : MonoBehaviour
 
     public void LevelUp(float damage, int count)
     {
-        this.damage = damage;
+        this.damage = damage * Character.WeaponDamage;
         this.count += count;
 
         if (id == 0)
         {
             Arrange();
         }
+        
+        player.BroadcastMessage("ApplyGear", SendMessageOptions.DontRequireReceiver);
     }
 
     public void Init(ItemData data)
@@ -64,8 +71,8 @@ public class Weapon : MonoBehaviour
         
         // property set
         id = data.itemId;
-        damage = data.baseDamage;
-        count = data.baseCount;
+        damage = data.baseDamage * Character.WeaponDamage;
+        count = data.baseCount + Character.Count;
 
         for (int index = 0; index < GameManager.instance.poolMgr.prefabs.Length; index++)
         {
@@ -79,13 +86,20 @@ public class Weapon : MonoBehaviour
         switch (id)
         {
             case 0:
-                speed = 150;
+                speed = 150 * Character.WeaponSpeed;
                 Arrange();
                 break;
             default:
-                speed = 0.3f;
+                speed = 0.5f * Character.WeaponRate;
                 break;
         }
+
+        // Hand Set
+        Hand hand = player.hands[(int)data.itemType];
+        hand.spriter.sprite = data.hand;
+        hand.gameObject.SetActive(true);
+        
+        player.BroadcastMessage("ApplyGear", SendMessageOptions.DontRequireReceiver);
     }
 
     /// <summary>
@@ -113,8 +127,8 @@ public class Weapon : MonoBehaviour
             bullet.Rotate(rotVec);
             bullet.Translate(bullet.up * 1.5f, Space.World);
             
-            // -1 is infinity
-            bullet.GetComponent<Bullet>().Init(damage, -1, Vector3.zero);
+            // -100 is infinity
+            bullet.GetComponent<Bullet>().Init(damage, -100, Vector3.zero);
         }
     }
 
@@ -133,5 +147,7 @@ public class Weapon : MonoBehaviour
         bullet.position = transform.position;
         bullet.rotation = Quaternion.FromToRotation(Vector3.up, dir);
         bullet.GetComponent<Bullet>().Init(damage, count, dir);
+        
+        AudioManager.instance.PlaySfx(AudioManager.Sfx.Range);
     }
 }
