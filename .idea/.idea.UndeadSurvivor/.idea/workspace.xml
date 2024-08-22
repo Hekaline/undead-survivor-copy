@@ -4,26 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="0d3ad439-f0db-455a-a22c-a81ea44ae1d2" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.UndeadSurvivor/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.UndeadSurvivor/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Scenes/Main.unity" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Scenes/Main.unity" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Bullet.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Bullet.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Enemy.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Enemy.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/GameManager.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/GameManager.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Gear.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Gear.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/HUD.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/HUD.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Item.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Item.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/ItemData.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/ItemData.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Player.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Player.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Reposition.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Reposition.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Spawner.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Spawner.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Weapon.cs" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Codes/Weapon.cs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 0.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 0.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 1.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 1.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 2.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 2.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 3.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 3.asset" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 4.asset" beforeDir="false" afterPath="$PROJECT_DIR$/Assets/Undead Survivor/Data/Item 4.asset" afterDir="false" />
-    </list>
+    <list default="true" id="0d3ad439-f0db-455a-a22c-a81ea44ae1d2" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -134,7 +115,7 @@
       <workItem from="1724134588993" duration="13483000" />
       <workItem from="1724198967661" duration="5044000" />
       <workItem from="1724205062435" duration="11277000" />
-      <workItem from="1724283726987" duration="19773000" />
+      <workItem from="1724283726987" duration="20981000" />
     </task>
     <servers />
   </component>
